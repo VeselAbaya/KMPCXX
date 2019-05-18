@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KMPCXX"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KMP_test">
+				<Option output="/home/veselabaya/CLionProjects/KMPCXX/KMP_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/header"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/src"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/test"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 KMP_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KMP_test/fast">
+				<Option output="/home/veselabaya/CLionProjects/KMPCXX/KMP_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/header"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/src"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/test"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 KMP_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KMP">
+				<Option output="/home/veselabaya/CLionProjects/KMPCXX/KMP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/header"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/src"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/test"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 KMP"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KMP/fast">
+				<Option output="/home/veselabaya/CLionProjects/KMPCXX/KMP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/header"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/src"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/test"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 KMP/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prefix_func_test">
+				<Option output="/home/veselabaya/CLionProjects/KMPCXX/prefix_func_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/header"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/src"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/test"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 prefix_func_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prefix_func_test/fast">
+				<Option output="/home/veselabaya/CLionProjects/KMPCXX/prefix_func_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/veselabaya/CLionProjects/KMPCXX"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/header"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/src"/>
+					<Add directory="/home/veselabaya/CLionProjects/KMPCXX/test"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 prefix_func_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/veselabaya/CLionProjects/KMPCXX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/veselabaya/CLionProjects/KMPCXX/src/KMP.cpp">
+			<Option target="KMP_test"/>
+			<Option target="KMP"/>
+		</Unit>
+		<Unit filename="/home/veselabaya/CLionProjects/KMPCXX/src/main.cpp">
+			<Option target="KMP"/>
+		</Unit>
+		<Unit filename="/home/veselabaya/CLionProjects/KMPCXX/src/prefix_func.cpp">
+			<Option target="KMP_test"/>
+			<Option target="KMP"/>
+			<Option target="prefix_func_test"/>
+		</Unit>
+		<Unit filename="/home/veselabaya/CLionProjects/KMPCXX/test/KMP_test.cpp">
+			<Option target="KMP_test"/>
+		</Unit>
+		<Unit filename="/home/veselabaya/CLionProjects/KMPCXX/test/prefix_func_test.cpp">
+			<Option target="prefix_func_test"/>
+		</Unit>
+		<Unit filename="/home/veselabaya/CLionProjects/KMPCXX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
