@@ -1,25 +1,24 @@
 #include "../header/KMP.h"
 
-std::vector<int> KMP(std::string str, std::string pattern) {
-  std::vector<int> p;
-  std::vector<int> result;
-  p = prefix_func(pattern);
-  unsigned long k = 0, j = 0;
-  while (k < str.length()){
-    if (str[k] == pattern[j]){
-      k++;
-      j++;
-      if (j == pattern.size()){
-        result.push_back(k-pattern.size());
+std::vector<size_t> KMP(std::string const& str, std::string const& pattern) {
+  std::vector<size_t> p = prefix_func(pattern);
+  std::vector<size_t> result;
+  size_t str_i = 0, pattern_i = 0;
+  while (str_i < str.length()){
+    if (str[str_i] == pattern[pattern_i]){
+      str_i++;
+      pattern_i++;
+      if (pattern_i == pattern.size()){
+        result.push_back(str_i-pattern.size());
       }
     }
-    else if (j == 0){
-      k++;
+    else if (pattern_i == 0){
+      str_i++;
     }
-    else{
-      j = p[j-1];
+    else {
+      pattern_i = p[pattern_i-1];
     }
-
   }
+
   return result;
 }

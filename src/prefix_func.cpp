@@ -1,14 +1,20 @@
 #include "../header/prefix_func.h"
 
-std::vector<int> prefix_func(std::string str) {
-  std::vector<int> entries(str.length());
-  for (int i = 1; i < str.length(); i++) {
-    int j = entries[i - 1];
-    while ((j > 0) && (str[i] != str[j]))
-      j = entries[j - 1];
-    if (str[i] == str[j])
-      ++j;
-    entries[i] = j;
+std::vector<size_t> prefix_func(std::string const& str) {
+  std::vector<size_t> entries(str.length());
+  for (int forward_i = 1; forward_i < str.length(); forward_i++) {
+    int back_i = entries[forward_i - 1];
+
+    while ((back_i > 0) && (str[forward_i] != str[back_i])) {
+      back_i = entries[back_i - 1];
+    }
+
+    if (str[forward_i] == str[back_i]) {
+      ++back_i;
+    }
+
+    entries[forward_i] = back_i;
   }
+
   return entries;
 }

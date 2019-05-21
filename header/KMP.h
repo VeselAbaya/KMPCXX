@@ -6,7 +6,7 @@
 
 #include "prefix_func.h"
 
-std::vector<int> KMP(std::string str, std::string pattern);
+std::vector<size_t> KMP(std::string const& str, std::string const& pattern);
 
 
 #endif //KMP_KMP_H

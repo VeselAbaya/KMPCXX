@@ -7,7 +7,7 @@
 int main() {
   std::string pattern, str;
   std::cin >> pattern >> str;
-  std::vector<int> res = KMP(str, pattern);
+  std::vector<size_t> res = KMP(str, pattern);
 
   // output
   if (res.size() > 0){
